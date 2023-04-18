@@ -1,0 +1,21 @@
+keys = event.getKeys()
+if 'escape' in keys:
+    core.quit()  # So you can quit
+else:
+    if keys:
+        if keys[0] == 'space':
+            textFill += ' '  # Adds a space instead of 'space'
+        elif keys[0] == 'backspace':
+            textFill = textFill[:-1]  # Deletes
+        elif keys[0] in allLetters:
+            textFill+=keys[0]  # Adds character to text if in alphabet.
+        nine_input.setText(textFill)  # Set new text on screen
+        if keys[0] == 'return':
+            textFill.strip()
+            thisExp.addData('nine', textFill)
+            if textFill == '8174':
+                thisExp.addData('nine_corr', 1)
+            else: 
+                thisExp.addData('nine_corr', 0)
+            nine_input.setText(textFill)
+            continueRoutine = False

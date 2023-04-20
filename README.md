@@ -13,6 +13,7 @@ Ebner, N.C., Riediger, M. & Lindenberger, U. FACES—A database of facial expres
 * 2_Dot_Probe: require subjects to locate the side of dark block. We implement the attentional bias task described in Kim 2014 (doi: 10.4306/pi.2014.11.2.160). However, emotional faces are from FACES database.
 
 Kim, Y. R., Oh, S. M., Corfield, F., Jeong, D. W., Jang, E. Y., & Treasure, J. (2014). Intranasal oxytocin lessens the attentional bias to adult negative faces: a double blind within-subject experiment. Psychiatry investigation, 11(2), 160.
+Macleod C, Mathews A. Anxiety and the allocation of attention to threat. Q J Exp Psychol A. 1988;40:653–670. 
 
 * 3_Go_Nogo: Implement the classic Go/NoGo task described in Hirose 2012 (doi: 10.1523/JNEUROSCI.0540-12.2012). The second part is the modified Go/NoGo task (emotional faces: go, positive and neural faces; nogo, negative faces).
 
